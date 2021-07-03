@@ -5,6 +5,7 @@ El RTOS estaria haciendo tres tareas, de hacer que cada diodo (son tres en total
 # Responsables:
 
 Jorge Estrella (Adaptación del código original pertenecienta a .... y desarrollador principal del proyecto )
+
 Fede Albesa    (Colaborador)
 
 # Pic utilizado 
