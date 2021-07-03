@@ -1,0 +1,300 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"1208 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1208: extern volatile unsigned char VRCON __attribute__((address(0x099)));
+[v _VRCON `Vuc ~T0 @X0 0 e@153 ]
+"564
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 564: extern volatile unsigned char CMCON __attribute__((address(0x019)));
+[v _CMCON `Vuc ~T0 @X0 0 e@25 ]
+"1404
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1404: extern volatile unsigned char ANSEL __attribute__((address(0x09F)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@159 ]
+"218
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 218: extern volatile unsigned char GPIO __attribute__((address(0x005)));
+[v _GPIO `Vuc ~T0 @X0 0 e@5 ]
+"797
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 797: extern volatile unsigned char TRISIO __attribute__((address(0x085)));
+[v _TRISIO `Vuc ~T0 @X0 0 e@133 ]
+"47 RTOS_3LEDS_2.c
+[; ;RTOS_3LEDS_2.c: 47:     T0SE = 1;
+[v _TMR0_Init `(v ~T0 @X0 0 ef ]
+"1609 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1609: extern volatile __bit GPIO0 __attribute__((address(0x28)));
+[v _GPIO0 `Vb ~T0 @X0 0 e@40 ]
+"1612
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1612: extern volatile __bit GPIO1 __attribute__((address(0x29)));
+[v _GPIO1 `Vb ~T0 @X0 0 e@41 ]
+"1615
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1615: extern volatile __bit GPIO2 __attribute__((address(0x2A)));
+[v _GPIO2 `Vb ~T0 @X0 0 e@42 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"1705
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1705: extern volatile __bit T0IF __attribute__((address(0x5A)));
+[v _T0IF `Vb ~T0 @X0 0 e@90 ]
+"72
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 72: extern volatile unsigned char TMR0 __attribute__((address(0x001)));
+[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
+"1573
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1573: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"1675
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1675: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"1702
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1702: extern volatile __bit T0IE __attribute__((address(0x5D)));
+[v _T0IE `Vb ~T0 @X0 0 e@93 ]
+"1699
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1699: extern volatile __bit T0CS __attribute__((address(0x40D)));
+[v _T0CS `Vb ~T0 @X0 0 e@1037 ]
+"1708
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1708: extern volatile __bit T0SE __attribute__((address(0x40C)));
+[v _T0SE `Vb ~T0 @X0 0 e@1036 ]
+"1687
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1687: extern volatile __bit PSA __attribute__((address(0x40B)));
+[v _PSA `Vb ~T0 @X0 0 e@1035 ]
+"1678
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1678: extern volatile __bit PS0 __attribute__((address(0x408)));
+[v _PS0 `Vb ~T0 @X0 0 e@1032 ]
+"1681
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1681: extern volatile __bit PS1 __attribute__((address(0x409)));
+[v _PS1 `Vb ~T0 @X0 0 e@1033 ]
+"1684
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1684: extern volatile __bit PS2 __attribute__((address(0x40A)));
+[v _PS2 `Vb ~T0 @X0 0 e@1034 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"74
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 74: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"94
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"200
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 200: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"220
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 220: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"308
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 308: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"328
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 328: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"406
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 406: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"454
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 454: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"461
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 461: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"481
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 481: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"566
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 566: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"625
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 625: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"645
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 645: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"729
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 729: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"799
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 799: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"849
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 849: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"897
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 897: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"931
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 931: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"991
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 991: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1036
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1036: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1041
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1041: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1210
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1210: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1270
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1270: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1275
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1275: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1308
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1308: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1328
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1328: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1366
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1366: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1386
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1386: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1406
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic12f675.h: 1406: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+"36 RTOS_3LEDS_2.c
+[; ;RTOS_3LEDS_2.c: 36: }
+[p x FOSC = INTRCIO ]
+"37
+[; ;RTOS_3LEDS_2.c: 37: 
+[p x WDTE = OFF ]
+"38
+[; ;RTOS_3LEDS_2.c: 38: void TMR0_Init(void)
+[p x PWRTE = OFF ]
+"39
+[; ;RTOS_3LEDS_2.c: 39: {
+[p x MCLRE = OFF ]
+"40
+[; ;RTOS_3LEDS_2.c: 40:     TMR0 = 252;
+[p x BOREN = OFF ]
+"41
+[; ;RTOS_3LEDS_2.c: 41:     GIE = 1;
+[p x CP = OFF ]
+"42
+[; ;RTOS_3LEDS_2.c: 42:     PEIE = 1;
+[p x CPD = OFF ]
+"46
+[; ;RTOS_3LEDS_2.c: 46:     T0CS = 0;
+[v _tick `ui ~T0 @X0 1 e ]
+[i _tick
+-> -> 0 `i `ui
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"49
+[; ;RTOS_3LEDS_2.c: 49:     PS0 = 1;
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"50
+[; ;RTOS_3LEDS_2.c: 50:     PS1 = 1;
+[e = _VRCON -> -> 0 `i `uc ]
+"51
+[; ;RTOS_3LEDS_2.c: 51:     PS2 = 1;
+[e = _CMCON -> -> 7 `i `uc ]
+"52
+[; ;RTOS_3LEDS_2.c: 52: }
+[e = _ANSEL -> -> 0 `i `uc ]
+"53
+[e = _GPIO -> -> 0 `i `uc ]
+"54
+[e = _TRISIO -> -> 0 `i `uc ]
+"55
+[e ( _TMR0_Init ..  ]
+"56
+[e :U 83 ]
+"57
+{
+"58
+[e $ ! == % _tick -> -> 50 `i `ui -> -> 0 `i `ui 85  ]
+"59
+{
+"60
+[e = _GPIO0 -> ~ -> _GPIO0 `ui `b ]
+"61
+}
+[e :U 85 ]
+"62
+[e $ ! == % _tick -> -> 70 `i `ui -> -> 0 `i `ui 86  ]
+"63
+{
+"64
+[e = _GPIO1 -> ~ -> _GPIO1 `ui `b ]
+"65
+}
+[e :U 86 ]
+"66
+[e $ ! == % _tick -> -> 220 `i `ui -> -> 0 `i `ui 87  ]
+"67
+[e = _GPIO2 -> ~ -> _GPIO2 `ui `b ]
+[e :U 87 ]
+"68
+}
+[e :U 82 ]
+[e $U 83  ]
+[e :U 84 ]
+"69
+[e $UE 81  ]
+"70
+[e :UE 81 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"72
+[v _ISR `(v ~T1 @X0 1 ef ]
+"73
+{
+[e :U _ISR ]
+[f ]
+"74
+[e $ ! _T0IF 89  ]
+"75
+{
+"76
+[e ++ _tick -> -> 1 `i `ui ]
+"77
+[e = _TMR0 -> -> 252 `i `uc ]
+"78
+[e = _T0IF -> -> 0 `i `b ]
+"79
+}
+[e :U 89 ]
+"80
+[e :UE 88 ]
+}
+"82
+[v _TMR0_Init `(v ~T0 @X0 1 ef ]
+"83
+{
+[e :U _TMR0_Init ]
+[f ]
+"84
+[e = _TMR0 -> -> 252 `i `uc ]
+"85
+[e = _GIE -> -> 1 `i `b ]
+"86
+[e = _PEIE -> -> 1 `i `b ]
+"87
+[e = _T0IE -> -> 1 `i `b ]
+"88
+[e = _T0IF -> -> 0 `i `b ]
+"90
+[e = _T0CS -> -> 0 `i `b ]
+"91
+[e = _T0SE -> -> 1 `i `b ]
+"92
+[e = _PSA -> -> 0 `i `b ]
+"93
+[e = _PS0 -> -> 1 `i `b ]
+"94
+[e = _PS1 -> -> 1 `i `b ]
+"95
+[e = _PS2 -> -> 1 `i `b ]
+"96
+[e :UE 90 ]
+}
