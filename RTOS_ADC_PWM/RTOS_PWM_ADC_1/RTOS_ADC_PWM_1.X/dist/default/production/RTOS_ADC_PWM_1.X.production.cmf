@@ -1,0 +1,515 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+reset_vec CODE 0 0 0 1 2
+end_init CODE 0 B B 1 2
+config CONFIG 4 2007 2007 1 2
+$dist/default/production\RTOS_ADC_PWM_1.X.production.o
+cinit CODE 0 C C 7 2
+text1 CODE 0 13 13 6A 2
+text2 CODE 0 1E7 1E7 26 2
+text3 CODE 0 7D 7D 68 2
+text4 CODE 0 20D 20D 22 2
+text5 CODE 0 175 175 3B 2
+text6 CODE 0 130 130 45 2
+text7 CODE 0 240 240 10 2
+text8 CODE 0 250 250 F 2
+text9 CODE 0 22F 22F 11 2
+text10 CODE 0 1B0 1B0 37 2
+maintext CODE 0 E5 E5 4B 2
+cstackBANK0 BANK0 1 20 20 1C 1
+intentry CODE 0 4 4 7 2
+bssBANK0 BANK0 1 3C 3C F 1
+clrtext CODE 0 25F 25F 8 2
+config CONFIG 4 2007 2007 1 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 4B-5D 1
+BANK0 4B-5D 1
+CONST 1-3 2
+CONST 267-3FE 2
+ENTRY 1-3 2
+ENTRY 267-3FE 2
+IDLOC 2000-2003 2
+STACK 4B-5D 1
+CODE 1-3 2
+CODE 267-3FE 2
+SFR0 0-1F 1
+SFR1 80-DD 1
+EEDATA 2100-217F 2
+STRCODE 1-3 2
+STRCODE 267-3FE 2
+STRING 1-3 2
+STRING 267-3FE 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\RTOS_ADC_PWM_1.X.production.o
+C cinit CODE >306:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+C cinit CODE >309:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+C cinit CODE >356:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+D cinit CODE >357:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+E cinit CODE >358:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+F cinit CODE >359:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+10 cinit CODE >360:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+11 cinit CODE >366:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+11 cinit CODE >368:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+12 cinit CODE >369:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+4 intentry CODE >113:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1B0 text10 CODE >113:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1B0 text10 CODE >115:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1B4 text10 CODE >117:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1B6 text10 CODE >117:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1BA text10 CODE >118:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1BC text10 CODE >119:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1BD text10 CODE >121:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1C1 text10 CODE >123:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1C5 text10 CODE >124:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1C8 text10 CODE >124:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1CC text10 CODE >124:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1D0 text10 CODE >126:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1D2 text10 CODE >128:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1D9 text10 CODE >130:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1DA text10 CODE >131:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1DB text10 CODE >134:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1DC text10 CODE >136:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+1E0 text10 CODE >139:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+22F text9 CODE >80:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+22F text9 CODE >82:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+231 text9 CODE >83:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+232 text9 CODE >84:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+234 text9 CODE >85:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+239 text9 CODE >86:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+23D text9 CODE >87:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+23F text9 CODE >88:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+250 text8 CODE >66:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+250 text8 CODE >68:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+253 text8 CODE >69:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+254 text8 CODE >70:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+255 text8 CODE >71:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+256 text8 CODE >72:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+257 text8 CODE >73:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+259 text8 CODE >74:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25A text8 CODE >75:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25B text8 CODE >76:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25C text8 CODE >77:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25D text8 CODE >78:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25E text8 CODE >79:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+240 text7 CODE >100:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+240 text7 CODE >102:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+245 text7 CODE >103:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+246 text7 CODE >104:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+247 text7 CODE >105:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+248 text7 CODE >106:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+249 text7 CODE >107:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+24B text7 CODE >108:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+24D text7 CODE >109:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+24E text7 CODE >110:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+24F text7 CODE >111:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+130 text6 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+130 text6 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+133 text6 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+139 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+13B text6 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+13C text6 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+13D text6 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+141 text6 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+143 text6 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+147 text6 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+14B text6 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+14C text6 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+150 text6 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+152 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+154 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+158 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+15C text6 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+15F text6 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+162 text6 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+163 text6 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+164 text6 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+168 text6 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+16A text6 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+170 text6 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+174 text6 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+175 text5 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+175 text5 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+17C text5 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+17E text5 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+17F text5 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+180 text5 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+184 text5 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+186 text5 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+18A text5 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+18E text5 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+190 text5 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+194 text5 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+198 text5 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+19B text5 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+19E text5 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+19F text5 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+1A3 text5 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+1A5 text5 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+1AB text5 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+1AF text5 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+20D text4 CODE >90:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+20D text4 CODE >91:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+20D text4 CODE >92:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+20F text4 CODE >93:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+213 text4 CODE >94:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+21D text4 CODE >95:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+223 text4 CODE >95:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+22A text4 CODE >96:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+22E text4 CODE >97:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+7D text3 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+7D text3 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+7F text3 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+83 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+86 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+88 text3 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+8A text3 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+8E text3 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+91 text3 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+93 text3 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+97 text3 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+99 text3 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+9F text3 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+A1 text3 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+A2 text3 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+A3 text3 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+A7 text3 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+A9 text3 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+AD text3 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+B1 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+B2 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+B6 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+B8 text3 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+BA text3 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+BE text3 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+C2 text3 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+C5 text3 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+C8 text3 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+C9 text3 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+CA text3 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+CE text3 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+D0 text3 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+D6 text3 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+DB text3 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+DE text3 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E0 text3 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+E4 text3 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+1E7 text2 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1E7 text2 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1EA text2 CODE >45:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1EE text2 CODE >46:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1F0 text2 CODE >46:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1F4 text2 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1F5 text2 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1F9 text2 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1FB text2 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+1FC text2 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+200 text2 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+202 text2 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+208 text2 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+20C text2 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+13 text1 CODE >140:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+13 text1 CODE >142:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+2C text1 CODE >143:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+32 text1 CODE >143:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+36 text1 CODE >143:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+3F text1 CODE >145:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+41 text1 CODE >145:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+45 text1 CODE >146:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+4F text1 CODE >148:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+56 text1 CODE >148:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+5A text1 CODE >148:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+64 text1 CODE >148:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+68 text1 CODE >148:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+6C text1 CODE >150:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+6F text1 CODE >150:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+73 text1 CODE >151:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+7C text1 CODE >157:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+E5 maintext CODE >42:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+E5 maintext CODE >43:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+E7 maintext CODE >44:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+EA maintext CODE >45:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+ED maintext CODE >46:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+EF maintext CODE >47:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+F0 maintext CODE >48:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+F1 maintext CODE >49:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+F2 maintext CODE >52:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+103 maintext CODE >54:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+11D maintext CODE >57:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+12D maintext CODE >59:C:\Users\NOVA\Documents\Proyecto lampara led reciclada con control de intensidad luminica\RTOS_ADC_PWM\RTOS_PWM_ADC_1\RTOS_ADC_PWM_1.X\RTOS_ADC_PWM_1.c
+25F clrtext CODE >343:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+25F clrtext CODE >344:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+260 clrtext CODE >345:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+260 clrtext CODE >346:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+261 clrtext CODE >347:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+262 clrtext CODE >348:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+263 clrtext CODE >349:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+264 clrtext CODE >350:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+265 clrtext CODE >351:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+266 clrtext CODE >352:C:\Users\NOVA\AppData\Local\Temp\xcAs890.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___awdiv@counter 34 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwmod@counter 28 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hspace_0 7FE 0 ABS 0 - -
+__Hspace_1 7FE 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Hstrings 7FE 0 ABS 0 strings -
+__end_of_TMR0_Init 4BE 0 CODE 0 text8 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_GPIO 5 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PEIE 5E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T0CS 40D 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T0IE 5D 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T0IF 5A 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T0SE 40C 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR0 1 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1 E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+_main 1CA 0 CODE 0 maintext dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_tick 48 0 BANK0 1 bssBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+btemp 5E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+start 16 0 CODE 0 init C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+__end_of_TMR1_Init 4A0 0 CODE 0 text7 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_TMR0_Init 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of___lwmod 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_TMR1_Init 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+?___wmul 29 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+task2@comparador 3A 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_TMR0_Init 4A0 0 CODE 0 text8 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_ADC_Init 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1_Init 480 0 CODE 0 text7 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+wtemp0 5E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+___awdiv@sign 35 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hclrtext 7FE 0 ABS 0 clrtext -
+___wmul@multiplicand 2B 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___awdiv@dividend 31 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+task1@RESULT_ADC 27 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of___wmul 41A 0 CODE 0 text2 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lmaintext 7FE 0 ABS 0 maintext -
+_ADC_Init 45E 0 CODE 0 text9 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___awdiv@divisor 2F 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwmod@divisor 23 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of___awdiv 1CA 0 CODE 0 text3 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of___lwdiv 2EA 0 CODE 0 text6 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of___lwmod 360 0 CODE 0 text5 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of_ADC_Init 480 0 CODE 0 text9 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+___stacklo 0 0 ABS 0 - C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+___lwdiv@quotient 34 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_task1 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_task2 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwmod@dividend 25 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+start_initialization 18 0 CODE 0 cinit dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PWM1DC 40 0 BANK0 1 bssBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+clear_ram0 4BE 0 CODE 0 clrtext dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1CS 81 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1IE 460 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1IF 60 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1ON 80 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TMR1_C 4A 0 BANK0 1 bssBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_TRISIO 85 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+__Hbank0 7FE 0 ABS 0 bank0 -
+__Hbank1 7FE 0 BANK1 1 bank1 -
+__Hcinit 26 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+___lwdiv@counter 36 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hmaintext 7FE 0 ABS 0 maintext -
+__Hcommon 7FE 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+_GPIObits 5 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lbank0 7FE 0 ABS 0 bank0 -
+__Lbank1 7FE 0 BANK1 1 bank1 -
+__Lcinit 18 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+__Habs1 7FE 0 ABS 0 abs1 -
+__Hcode 7FE 0 ABS 0 code -
+__Hinit 16 0 CODE 0 init -
+__Hsfr0 7FE 0 ABS 0 sfr0 -
+__Hsfr1 7FE 0 ABS 0 sfr1 -
+__Htext 7FE 0 ABS 0 text -
+__Labs1 7FE 0 ABS 0 abs1 -
+__Lcode 7FE 0 ABS 0 code -
+__Linit 16 0 CODE 0 init -
+__Lsfr0 7FE 0 ABS 0 sfr0 -
+__Lsfr1 7FE 0 ABS 0 sfr1 -
+__Ltext 7FE 0 ABS 0 text -
+___wmul 3CE 0 CODE 0 text2 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__LcstackBANK0 7FE 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 7FE 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_ISR 360 0 CODE 0 text10 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PS0 408 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PS1 409 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PS2 40A 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_PSA 40B 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__S0 267 0 ABS 0 - -
+__S1 4B 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+saved_w 5E 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_valor_PWM1 3C 0 BANK0 1 bssBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hosccal 7FE 0 CODE 0 osccal -
+__end_of_ISR 3CE 0 CODE 0 text10 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__LbssBANK0 7FE 0 ABS 0 bssBANK0 -
+__ptext10 360 0 CODE 0 text10 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___awdiv FA 0 CODE 0 text3 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwdiv 260 0 CODE 0 text6 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwmod 2EA 0 CODE 0 text5 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__pmaintext 1CA 0 CODE 0 maintext dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lcommon 7FE 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+___wmul@multiplier 29 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwdiv@divisor 2F 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___osccal_val 7FE 0 CODE 0 osccal C:\Users\NOVA\AppData\Local\Temp\xcAs890.o
+_ADCON0bits 1F 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 7FE 0 ABS 0 cstackBANK0 -
+__Lend_init 16 0 CODE 0 end_init -
+__LcstackCOMMON 7FE 0 ABS 0 cstackCOMMON -
+end_of_initialization 22 0 CODE 0 cinit dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hintentry 16 0 CODE 0 intentry -
+__Losccal 7FE 0 CODE 0 osccal -
+__Lstrings 7FE 0 ABS 0 strings -
+___awdiv@quotient 36 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+?___awdiv 2F 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___lwdiv@dividend 31 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+?___lwdiv 2F 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+?___lwmod 23 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hreset_vec 2 0 CODE 0 reset_vec -
+__HbssBANK0 7FE 0 ABS 0 bssBANK0 -
+__ptext1 26 0 CODE 0 text1 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext2 3CE 0 CODE 0 text2 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext3 FA 0 CODE 0 text3 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext4 41A 0 CODE 0 text4 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext5 2EA 0 CODE 0 text5 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext6 260 0 CODE 0 text6 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext7 480 0 CODE 0 text7 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext8 4A0 0 CODE 0 text8 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__ptext9 45E 0 CODE 0 text9 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization 22 0 CODE 0 cinit dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+?_task1 23 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Lclrtext 7FE 0 ABS 0 clrtext -
+_ANSELbits 9F 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T1CKPS0 84 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_T1CKPS1 85 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__pcstackCOMMON 0 0 COMMON 1 cstackCOMMON dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hend_init 18 0 CODE 0 end_init -
+__end_of_main 260 0 CODE 0 maintext dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_CMCON 19 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_VRCON 99 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of_task1 45E 0 CODE 0 text4 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__end_of_task2 FA 0 CODE 0 text1 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__Hram 7FE 0 ABS 0 ram -
+__Lram 7FE 0 ABS 0 ram -
+interrupt_function 8 0 CODE 0 intentry dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_task1 41A 0 CODE 0 text4 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+_task2 26 0 CODE 0 text1 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__size_of_ISR 0 0 ABS 0 - dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__initialization 18 0 CODE 0 cinit dist/default/production\RTOS_ADC_PWM_1.X.production.o
+__pbssBANK0 3C 0 BANK0 1 bssBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+___wmul@product 2D 0 BANK0 1 cstackBANK0 dist/default/production\RTOS_ADC_PWM_1.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 5E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackBANK0 1 20 20 2B 1
+intentry 0 4 8 263 2
+reset_vec 0 0 0 1 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
