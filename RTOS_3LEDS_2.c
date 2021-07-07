@@ -20,6 +20,8 @@
 
 // modificado por fede
 
+cosas locas q romperian el codigo
+
 #include <xc.h>
 #include <stdint.h>
 #include <htc.h>
