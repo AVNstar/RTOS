@@ -18,7 +18,7 @@
 //la idea es hacer funcionar tres leds de manera "independiente" o cuasi paralelo
 //a diferentes frecuencias cada uno.
 
-
+// modificado por fede
 
 #include <xc.h>
 #include <stdint.h>
